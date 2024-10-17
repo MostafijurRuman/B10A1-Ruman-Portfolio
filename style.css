@@ -34,7 +34,6 @@
 .fontz {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -199,7 +198,6 @@ main{
     justify-content: space-around;
     padding: 48px;
     border-radius: 16px;
-    background: border-radius: 16px;
 }
 
 .card1{
@@ -345,7 +343,7 @@ margin: 0px 24px;
 .box3{
     border-radius: 16px;
 
-    background: rgba(255, 223, 0, 0.05);v
+    background: rgba(255, 223, 0, 0.05);
 }
 
 .skill-box-container{
