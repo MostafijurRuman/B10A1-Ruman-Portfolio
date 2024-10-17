@@ -4,6 +4,32 @@
     color: inherit; 
 }
 
+/* Shared style */
+.heading{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+    }
+.hp{
+     color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+    }
+
+
+
+
+
 /* Google Fonts*/
 .fontz {
   font-family: "Azeret Mono", monospace;
@@ -142,17 +168,20 @@ text-align: center;
     justify-content: center;
 }
 
+main{
+    margin: 0px 8%;
+}
 
+/* why web dev section start */
 .wwd-bg{
     border-radius: 16px;
 
     background: rgba(13, 19, 33, 0.02);
-    padding: 48px, 0px, 48px;
+    padding-bottom: 35px;
 }
 
 .wwd-main{
-    background: white;
-    margin: 120px;
+    margin: 80px;
 }
 
 .wwd-heading{
@@ -161,4 +190,91 @@ text-align: center;
 }
 .wwd-paragraph{
    text-align: center;
+}
+
+/* card style */
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px;
+    border-radius: 16px;
+    background: border-radius: 16px;
+}
+
+.card1{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);  
+}
+.card2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.card3{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.card-btn{
+cursor: pointer;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+/* Frame 7 */
+position: static;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 20px 12px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.cgap{
+    padding-right: 45px;
+}
+
+.head-txt{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    
+    .txt{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+
+    /* My Inspiration Section  */
+.mi{
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+.mi iframe{
+    border: 5px solid gainsboro;
+    border-radius: 16px;
 }
