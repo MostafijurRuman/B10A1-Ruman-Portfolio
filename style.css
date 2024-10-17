@@ -391,3 +391,120 @@ border-radius: 16px;
 background: rgb(255, 255, 255);
 padding: 30px;
 }
+
+/* Footer Banner starts */
+.footer-banner {
+    background-image: url(/assets/Frame\ 8.png);
+    background-size: cover;   
+    background-position: center;  
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 64px; 
+    
+}
+
+
+.footer-banner p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-banner h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.input-box{
+    /* Frame 7 */
+position: static;
+width: 548px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 10;
+padding: 19px 20px 19px 20px;
+
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.last-btn{
+    /* Frame 8 */
+position: static;
+width: 120px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 17px 20px 17px 20px;
+cursor: pointer;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 93px;
+    margin-bottom: 16px;
+}
+.footx{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
