@@ -1,0 +1,164 @@
+/* Univarsal Style */
+*{
+    text-decoration: none;
+    color: inherit; 
+}
+
+/* Google Fonts*/
+.fontz {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/* Nav Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left:  10%;
+}
+
+.logo{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.header-btn{
+    /* Download Resume */
+position: static;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 0px 30px 0px 30px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    gap: 15px;
+    background-image: url('/assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero>h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.hero>h6{
+    color: rgba(13, 19, 33,0.6);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.hero-btn{
+    /* Frame 2 */
+position: static;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 21px 24px 21px 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+
+border-radius: 8px;
+
+background: rgb(13, 19, 33);
+
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.div-hero-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.wwd-bg{
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+    padding: 48px, 0px, 48px;
+}
+
+.wwd-main{
+    background: white;
+    margin: 120px;
+}
+
+.wwd-heading{
+    text-align: center;
+    padding-top: 80px;
+}
+.wwd-paragraph{
+   text-align: center;
+}
