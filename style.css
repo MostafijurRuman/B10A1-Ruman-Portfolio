@@ -278,3 +278,81 @@ text-align: center;
     border: 5px solid gainsboro;
     border-radius: 16px;
 }
+
+/* My Current Target start */
+
+.box-head{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.box-para{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box-btn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.skill-box{
+/* Frame 10 */
+position: static;
+width: 364px;
+height: 299px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 40px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+}
+.box1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.box2{
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+.box3{
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);v
+}
+
+.skill-box-container{
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* My Current Target Start */
