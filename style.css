@@ -98,7 +98,7 @@ opacity: 0.8;
     height: 100vh;
     text-align: center;
     gap: 15px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -394,7 +394,7 @@ padding: 30px;
 
 /* Footer Banner starts */
 .footer-banner {
-    background-image: url(/assets/Frame\ 8.png);
+    background-image: url(./assets/Frame\ 8.png);
     background-size: cover;   
     background-position: center;  
     background-repeat: no-repeat;
